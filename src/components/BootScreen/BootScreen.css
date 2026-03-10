@@ -1,0 +1,68 @@
+/* BOOTSCREEN ESTILO OLDSCHOOL WINDOWS XP */
+
+.bootScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+
+  background: #c0c0c0; /* cinza clássico XP */
+  color: black;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: Tahoma, Arial, sans-serif; /* fonte oldschool */
+  z-index: 9999;
+}
+
+/* CAIXA CENTRAL */
+
+.bootBox {
+  width: 520px;
+  padding: 30px;
+  text-align: center;
+
+  background: #e4e4e4;
+  border: 2px solid #7f9db9; /* borda estilo XP */
+  box-shadow: 2px 2px 0 #fff inset, -2px -2px 0 #7f9db9 inset; /* efeito 3D */
+}
+
+/* TITULO */
+
+.bootBox h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #000;
+}
+
+/* TEXTO */
+
+.bootBox p {
+  font-size: 16px;
+  margin: 10px 0;
+  line-height: 1.4;
+  color: #000;
+}
+
+/* BOTAO */
+
+.bootButton {
+  margin-top: 20px;
+  padding: 6px 16px;
+  font-size: 16px;
+  font-weight: bold;
+
+  background: #d8d8d8;
+  color: black;
+  border: 2px outset #fff;
+  cursor: pointer;
+}
+
+.bootButton:hover {
+  background: #c0c0c0;
+  border: 2px inset #fff;
+}

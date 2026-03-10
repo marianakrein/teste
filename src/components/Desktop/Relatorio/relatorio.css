@@ -1,0 +1,158 @@
+.relatorioApp{
+  height:100%;
+  background:#c0c0c0;
+  display:flex;
+  flex-direction:column;
+  font-family:Tahoma, Arial, sans-serif;
+}
+
+/* HEADER */
+
+.relatorioHeader{
+  display:flex;
+  gap:16px;
+  padding:14px;
+
+  background:#e4e4e4;
+
+  border-bottom:2px solid #7f9db9;
+}
+
+.umbrellaLogo{
+  width:72px;
+  height:72px;
+}
+
+.headerText h1{
+  margin:0;
+  font-size:20px;
+  letter-spacing:1px;
+}
+
+.headerText h2{
+  margin:2px 0;
+  font-size:14px;
+  font-weight:normal;
+}
+
+.headerText h3{
+  margin:4px 0;
+  font-size:13px;
+  color:#7a0000;
+}
+
+.classificacao{
+  margin-top:6px;
+  font-size:12px;
+  font-weight:bold;
+  color:#5a0000;
+}
+
+/* BODY */
+
+.relatorioBody{
+  flex:1;
+  padding:18px;
+  overflow-y:auto;
+
+  background:white;
+
+  font-size:18px;
+  line-height:1.5;
+}
+
+.relatorioBody h2{
+  margin-top:0;
+  border-bottom:1px solid #aaa;
+}
+
+.relatorioBody h3{
+  margin-top:18px;
+  color:#7a0000;
+}
+
+.relatorioBody h4{
+  margin-top:12px;
+}
+
+.relatorioBody ul{
+  margin-left:20px;
+}
+
+.citacao{
+  background:#f2f2f2;
+  border-left:4px solid #999;
+  padding:6px;
+  font-style:italic;
+}
+
+/* CODE BOX */
+
+.codigoBox{
+  margin-top:10px;
+  padding:10px;
+
+  background:#111;
+  color:#0f0;
+
+  font-family:monospace;
+  font-size:14px;
+
+  border:2px inset #555;
+}
+
+/* FINAL */
+
+.assinatura{
+  margin-top:30px;
+  padding-top:10px;
+  border-top:1px dashed #aaa;
+}
+
+.senhaWrapper{
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#c0c0c0;
+}
+
+.senhaBox{
+  background:#e4e4e4;
+  padding:20px;
+  border:2px solid #7f9db9;
+  box-shadow:2px 2px 0 #fff inset;
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  width:280px;
+  text-align:center;
+}
+
+.senhaBox h2{
+  margin:0;
+  font-size:16px;
+}
+
+.senhaBox input{
+  padding:4px;
+  border:1px solid #7f9db9;
+  background:white;
+}
+
+.senhaBox button{
+  padding:4px 8px;
+  border:2px outset #fff;
+  background:#d8d8d8;
+  cursor:pointer;
+}
+
+.senhaBox button:hover{
+  background:#c0c0c0;
+}
+
+.senhaErro{
+  color:red;
+  font-weight:bold;
+  margin-top:4px;
+}
