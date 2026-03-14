@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./messages.css";
 import { useWindowStore } from "../../stores/windowStore.js";
-import ImageEditor from "../ImageEditor/ImageEditor";
+import ImageEditor from "../ImageEditor/ImageEditor.jsx";
 
 const conversations = [
   {

@@ -20,7 +20,7 @@ export default function Login({ onLogin }) {
         <input
           placeholder="Usuário"
           value="PROJETOJ"
-          readonly
+          readOnly
           disabled
         />
 
