@@ -52,12 +52,12 @@ export default function Desktop() {
     <div className="desktop">
       <div className="desktopIcons">
         <div className="iconButton" onClick={openTerminal}>
-          <img src="src/assets/umbrella.png" alt="terminal" />
+          <img src="./src/assets/umbrella.png" alt="terminal" />
           <span>Terminal</span>
         </div>
 
         <div className="iconButton" onClick={openTxt}>
-          <img src="src/assets/umbrella.png" alt="arquivo" />
+          <img src="./src/assets/umbrella.png" alt="arquivo" />
           <span>RELATORIO.txt</span>
         </div>
 
@@ -101,7 +101,7 @@ export default function Desktop() {
 
       <div className="taskbar">
         <div className="startButton">
-          <img src="src/assets/umbrella.png" />
+          <img src="./src/assets/umbrella.png" />
           START
         </div>
 

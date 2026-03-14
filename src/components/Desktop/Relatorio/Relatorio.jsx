@@ -5,7 +5,7 @@ export default function Relatorio() {
     <div className="relatorioApp">
       <div className="relatorioHeader">
         <img
-          src="src/assets/umbrella.png"
+          src="./src/assets/umbrella.png"
           alt="Umbrella"
           className="umbrellaLogo"
         />

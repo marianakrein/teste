@@ -19,7 +19,7 @@ export default function Splash({ onFinish }) {
       <div className="splashPanel">
 
         <img
-          src="src/assets/umbrella.png"
+          src="./src/assets/umbrella.png"
           className="umbrellaLogo"
         />
 
