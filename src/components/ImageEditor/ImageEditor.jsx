@@ -50,7 +50,7 @@ export default function ImageEditor() {
       <div className="editorCanvas">
         <img
           className="placeholderImage"
-          src="src/assets/arte.png"
+          src="./src/assets/arte.png"
           alt="arte"
         />
 

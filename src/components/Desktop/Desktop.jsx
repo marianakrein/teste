@@ -62,7 +62,7 @@ export default function Desktop() {
         </div>
 
         <div className="iconButton" onClick={openMensagens}>
-          <img src="src/assets/messages.png" alt="Mensagens" />
+          <img src="./src/assets/messages.png" alt="Mensagens" />
           <span>Mensagens</span>
         </div>
       </div>
